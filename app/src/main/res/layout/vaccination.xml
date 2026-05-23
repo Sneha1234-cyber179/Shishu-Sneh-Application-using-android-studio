@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Back to Home"
+            android:textSize="18sp"
+            android:backgroundTint="#616161"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vaccination Reminder"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✔ BCG Vaccine - At Birth"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:background="#FFE0B2"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✔ Hepatitis B - 6 Weeks"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:background="#FFE0B2"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✔ Polio Vaccine - 10 Weeks"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:background="#FFE0B2"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✔ Measles Vaccine - 9 Months"
+            android:textSize="20sp"
+            android:padding="12dp"
+            android:background="#FFE0B2"/>
+
+    </LinearLayout>
+
+</ScrollView>
